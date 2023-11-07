@@ -22,10 +22,10 @@
             else {
                 //if all the fields are filled (not moty)
                 //insert data to database
-                $result = mysqli_query($dbc, "INSERT INTO tblsubject(subject_code, subject_name) VALUES ('$code', '$name')");
+                $result = mysqli_query($dbc, "INSERT INTO tblsubjects(subject_code, subject_name) VALUES ('$code', '$name')");
                 //display success message
                 echo "<font color='green'>Data added successfully.";
-                echo "<br/><a href='../index.php'>View Result</a>";
+                echo "<br/><a href='index.php'>View Result</a>";
             }
         }
 ?>

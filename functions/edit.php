@@ -1,9 +1,9 @@
 <?php
     // including the database connection file
-    include_once("../dbConnection/mysql.config_connection.php");
+    include_once("../dbConnection/mysqlconfig_connection.php");
     if(isset($_POST['update'])) {
-        $id $_POST['id'];
-        $code $_POST['code'];
+        $id=$_POST['id'];
+        $code=$_POST['code'];
         $name=$_POST['name'];
         // checking empty fields
         if(empty($code) | empty($name)){
@@ -16,8 +16,8 @@
         }
         else {
             //updating the table
-            mysqli_query($dbc, "UPDATE tblsubject SET subject code='$code', subject_name=$name HERE subject_id='$id'as");
-            //redirectig to the display page. In our case, it is index.php header("Location: ../index.php");
+            mysqli_query($dbc, "UPDATE tblsubjects SET subject_code='$code', subject_name='$name' WHERE subject_id='$id'");
+            header("Location:index.php");
         }
     }
 ?>

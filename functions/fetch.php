@@ -1,7 +1,7 @@
 
 <?php
-    //fetching data
-    $query = "SELECT * FROM tblsubject";
+     include_once("../dbConnection/mysqlconfig_connection.php");
+    $query = "SELECT * FROM tblsubjects";
     $result = mysqli_query($dbc, $query);
     // using mysqli_query
  ?>
