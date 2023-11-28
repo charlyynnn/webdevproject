@@ -10,6 +10,9 @@
         $code = $_POST['code'];
         $author = $_POST['author'];
         $subject = $_POST['subject'];
+        $subject_id = $_POST['subject_id'];
+        $syllabus_code = $_POST['syllabus_code'];
+        $syllabus_author = $_POST['syllabus_author'];
         if(empty($code) || empty ($author)){
             if(empty($code)){
                 echo "<font color='red'>Syllabus Code field is empty</font><br/>";
