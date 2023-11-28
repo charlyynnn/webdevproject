@@ -19,7 +19,7 @@
         <td> Subject</td>
         <td><select name="subject"> 
                 <?php
-                include once("../dbconnection/mysqlconfig_connection.php");
+                include_once("../dbconnection/mysqlconfig_connection.php");
                 $query= "SELECT * FROM tblsubjects";
                 $result= mysqli_query($dbc, $query);
                 while($res = mysqli_fetch_array($result)) {
