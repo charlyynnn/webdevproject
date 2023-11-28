@@ -31,9 +31,9 @@
                 </select></td>
             </tr>
             <tr>
-                <td></td>
-                <td><input type="submit" name="Submit" value="Add"></td>
-            </tr>
+                    <td></td>
+                    <td><input type="submit" name="Submit" value="Add"></td>
+                </tr>
     </table>
     </form>
 </body>
