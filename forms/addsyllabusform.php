@@ -21,7 +21,7 @@
                 $query= "SELECT * FROM tblsubjects";
                 $result= mysqli_query($dbc, $query);
                 while($res = mysqli_fetch_array($result)) {
-                    echo "<option value=\"".$res['SUBJECT_ID']."\">"; 
+                    echo "<option value=\"".$res['Subject_ID']."\">"; 
                     echo $res['Subject_Name']; 
                     echo "</option>";
                 } 
