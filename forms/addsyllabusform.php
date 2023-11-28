@@ -1,7 +1,7 @@
 <head><title>Add Syllabus </title></head> 
 <body>
     <h1>Add Syllabus</h1>
-    <a href="../index.php"> Home</a>
+    <a href="../functions/index.php"> Home</a>
     <br/><br/>
     <form action="../functions/addsyllabus.php" method="post" name="form1">
     <table width="25%">
