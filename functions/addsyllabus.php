@@ -20,7 +20,7 @@ if(isset($_POST ['Submit'])){
          echo "<br/><a href='javascript:self.history.back();'>Go Back</a>"; 
         }
         else{
-            $result = mysqli_query($dbc, "INSERT INTO tblsyllabus(syllabus_code,syllabus_author) VALUES('123','Charlyn')");
+            $result = mysqli_query($dbc, "INSERT INTO tblsyllabus (subject_id, syllabus_code, syllabus_author) VALUES('1','123','Charlyn')");
             echo "<font color='green'>Data added successfully.</font>";
             echo "<br/><a href='../index.php>View Result</a>'";
         }
