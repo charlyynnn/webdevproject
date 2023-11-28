@@ -17,8 +17,7 @@
         </tr>
         <tr>
         <td> Subject</td>
-        <td>
-            <select name="subject"> 
+        <td><select name="subject"> 
                 <?php
                 include once("../dbconnection/mysqlconfig_connection.php");
                 $query= "SELECT * FROM tblsubjects";
@@ -29,12 +28,11 @@
                     echo "</option>";
                 } 
                 ?>
-                </select>
-            </td>
+                </select></td>
             </tr>
             <tr>
                 <td></td>
-                <td><input type='submit' name='Submit' value='Add'></td>
+                <td><input type='submit' name='Submit' value="Add"></td>
             </tr>
     </table>
     </form>
