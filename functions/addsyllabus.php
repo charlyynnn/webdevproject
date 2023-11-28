@@ -22,7 +22,7 @@
             else{
                 $result = mysqli_query($dbc, "INSERT INTO tblsyllabus (syllabus_code, syllabus_author) VALUES('123','Charlyn')");
                 echo "<font color='green'>Data added successfully.</font>";
-                echo "<br/><a href='../index.php>View Result</a>'";
+                echo "<br/><a href='../index.php'>View Result</a>";
             }
         }
         ?>
