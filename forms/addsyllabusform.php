@@ -20,7 +20,7 @@
                 include once("../dbconnection/mysqlconfig_connection.php");
                 $query= "SELECT * FROM tblsubjects";
                 $result= mysqli_query($dbc, $query);
-                while($res=mysqli_fetch_array($result)) {
+                while($res = mysqli_fetch_array($result)) {
                     echo "<option value=\"".$res['subject_id']."\">"; 
                     echo $res['subject name']; 
                     echo"</option>";
