@@ -1,3 +1,5 @@
+<!DOCTYPE html>
+<html>
 <head><title>Add Syllabus </title></head> 
 <body>
     <h1>Add Syllabus</h1>
@@ -31,8 +33,9 @@
             </tr>
             <tr>
                 <td></td>
-<td><input type='submit' name='Submit' value='Add'></td>
+                <td><input type='submit' name='Submit' value='Add'></td>
             </tr>
     </table>
     </form>
 </body>
+</html>
