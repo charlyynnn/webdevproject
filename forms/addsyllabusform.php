@@ -22,7 +22,7 @@
                 $result= mysqli_query($dbc, $query);
                 while($res = mysqli_fetch_array($result)) {
                     echo "<option value=\"".$res['SUBJECT_ID']."\">"; 
-                    echo $res['subject name']; 
+                    echo $res['Subject_Name']; 
                     echo "</option>";
                 } 
                 ?>
